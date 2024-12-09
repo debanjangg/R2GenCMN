@@ -2,7 +2,7 @@ from sklearn.metrics import roc_auc_score, f1_score, recall_score, precision_sco
 
 from pycocoevalcap.bleu.bleu import Bleu
 from pycocoevalcap.meteor import meteor
-from pycocoevalcap.rouge import Rouge
+from pycocoevalcap.rouge import rouge
 
 
 def compute_scores(gts, res):
